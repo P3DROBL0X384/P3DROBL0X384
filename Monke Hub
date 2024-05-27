@@ -1,0 +1,49 @@
+local player = game.Players.LocalPlayer local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Monke Hub (Beta)", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({ Name = "Humans Things", Icon = "rbxassetid://4483345998", PremiumOnly = false })
+local Section = Tab:AddSection({ Name = "Spawns" })
+OrionLib:MakeNotification({ Name = "Welcome to Monke Hub", Content = "This is a script for the Game Called Monke Game (This is a BETA version!)", Image = "rbxassetid://4483345998", Time = 8 })
+Tab:AddButton({ Name = "Primary Spawn", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(-24.506183624267578, 3.9999992847442627, 175.82774353027344) end }) 
+Tab:AddButton({ Name = "Secondary Spawn", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(165.59384155273438, 4.000014305114746, 374.7190246582031) end })
+local Section = Tab:AddSection({ Name = "Stores" }) --[[ Name = - The name of the section. ]]
+Tab:AddButton({ Name = "Weapons Store", Callback = function() game.Players.LocalPlayer.Character.Humanoid .RootPart.CFrame = CFrame.new(-40.48722457885742, 3.9999992847442627, 175.52499389648438) end })
+Tab:AddButton({ Name = "Props Store", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(171.0177764892578, 4.000014305114746, 377.5124206542969) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+local Section = Tab:AddSection({ Name = "Weapons" }) --[[ Name = - The name of the section. ]]
+Tab:AddButton({ Name = "Bat and Shield", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(-4.389138698577881, -2.9999911785125732, 477.32147216796875) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Katana", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-33.361392974853516, -7.999994277954102, 428.2766418457031) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Chainsaw (Require Alpha Monke Spawned or All Systems Disables", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-72.34527587890625, -7.999994277954102, 518.0076904296875) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Guitar", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(51.7342529296875, 4.000014305114746, 377.0679016113281) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Hammer", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(105.44219970703125, -13.000001907348633, 118.57872772216797) end })
+Tab:AddButton({ Name = "Fire Axe", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(126.33721160888672, -13.000018119812012, 186.4666290283203) end })
+Tab:AddButton({ Name = "Cricket Bat", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(126.33721160888672, -13.000018119812012, 186.4666290283203) end })
+local Section = Tab:AddSection({ Name = "Other Weapons" }) --[[ Name = - The name of the section. ]]
+Tab:AddButton({ Name = "Flame-Thrower", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(15.547625541687012, -18.0000057220459, 164.994384765625) end })
+local Section = Tab:AddSection({ Name = "Bandages" }) --[[ Name = - The name of the section. ]]
+Tab:AddButton({ Name = "Bandage", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(98.10655975341797, 4.000014305114746, 348.2579345703125) end })
+Tab:AddButton({ Name = "Bandage2", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(104.93524169921875, 3.9999992847442627, 146.78700256347656) end })
+Tab:AddButton({ Name = "Bandage3", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-66.14749908447266, -7.999994277954102, 394.94720458984375) end })
+Tab:AddButton({ Name = "Bandage4", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-78.83607482910156, 3.9999992847442627, 158.80746459960938) end })
+Tab:AddButton({ Name = "Bandage5", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-92.96835327148438, 3.9999992847442627, 171.75343322753906) end })
+local Section = Tab:AddSection({ Name = "Antidotes" }) --[[ Name = - The name of the section. ]]
+Tab:AddButton({ Name = "Antidote", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(115.89392852783203, -13.000018119812012, 177.11265563964844) end })
+Tab:AddButton({ Name = "Antidote2", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(60.12789535522461, 4.000014305114746, 459.1845703125) end })
+Tab:AddButton({ Name = "Antidote3", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(147.71205139160156, 4.000014305114746, 371.560791015625) end })
+local Section = Tab:AddSection({ Name = "Toolboxes" }) --[[ Name = - The name of the section. ]]
+Tab:AddButton({ Name = "Toolbox", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(105.05856323242188, 4.000014305114746, 399.6448974609375) end })
+Tab:AddButton({ Name = "Toolbox2", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(51.044837951660156, -13.00000286102295, 310.5234069824219) end })
+Tab:AddButton({ Name = "Toolbox3", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(103.46805572509766, -13.000001907348633, 131.89112854003906) end })
+Tab:AddButton({ Name = "Toolbox4", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-48.401336669921875, -4.999992370605469, 427.9659729003906) end })
+local Section = Tab:AddSection({ Name = "More soon..." }) --[[ Name = - The name of the section. ]]
+local Tab = Window:MakeTab({ Name = " Monkey Things", Icon = "rbxassetid://4483345998", PremiumOnly = false }) --[[ Name = - The name of the tab. Icon = - The icon of the tab. PremiumOnly = - Makes the tab accessible to Sirus Premium users only. ]]
+local Section = Tab:AddSection({ Name = "Monkeys" }) --[[ Name = - The name of the section. ]]
+Tab:AddButton({ Name = "Red Monkey/Apple", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(52.858070373535156, 4.000014781951904, 457.41351318359375) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Yellow Monkey/Banana", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(11.451489448547363, 4, 63.49627685546875) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Green Monkey", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(34.31182861328125, 3.9999992847442627, 63.702213287353516) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Orange Monkey", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(-19.815258026123047, -18.0000057220459, 144.23658752441406) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Blue Monkey", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(6.840743064880371, -13.00000286102295, 320.1115417480469) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Pink Monkey (You need to click on the computer, wait for it to turn pink and click again)", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(93.61795806884766, 3.9999992847442627, 138.3841552734375) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Purple Monkey", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(119.95347595214844, -13.000018119812012, 161.5809326171875) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+local Section = Tab:AddSection({ Name = "Alpha Monkey" }) --[[ Name = - The name of the section. ]]
+Tab:AddButton({ Name = "Alpha Potion (Needs force field off)", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-95.8268814086914, 3.9999992847442627, 82.34674835205078) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+Tab:AddButton({ Name = "Alpha Liquid Dunp", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(83.54210662841797, -5.000004768371582, 203.9273681640625) end })
+                                                                                                                                                                                                                                   
