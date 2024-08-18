@@ -29,8 +29,6 @@ tab.newButton("Hammer", "Teleport's you to this Weapon", function() game.Players
 
 tab.newButton("FireAxe", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-99.31438446044922, 3.9999992847442627, 96.05844116210938) end)
 
-tab.newButton("FireAxe", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-99.31438446044922, 3.9999992847442627, 96.05844116210938) end)
-
 tab.newButton("Shovel", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Shovel.CFrame end)
 
 tab.newLabel("Crowbar Spawns")
