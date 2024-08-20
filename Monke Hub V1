@@ -1,165 +1,211 @@
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-local window = DrRayLibrary:Load("Monke Hub", "Default")
-
-local tab = DrRayLibrary.newTab("Humans", "ImageIdHere")
-
-tab.newLabel("Spawns")
-
-tab.newButton("Primary Spawn", "Teleport's you to Primary Spawn", function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(-24.506183624267578, 3.9999992847442627, 175.82774353027344) end)
-
-tab.newButton("Secondary Spawn", "Teleport's you to Secondary Spawn", function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(165.59384155273438, 4.000014305114746, 374.7190246582031) end)
-
-tab.newLabel("Stores")
-
-tab.newButton("Weapon Store", "Teleport's you to Weapon Store", function() game.Players.LocalPlayer.Character.Humanoid .RootPart.CFrame = CFrame.new(-40.48722457885742, 3.9999992847442627, 175.52499389648438) end)
-
-tab.newButton("Props Store", "Teleport's you to Props Store", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(171.0177764892578, 4.000014305114746, 377.5124206542969) end)
-
-tab.newLabel("Weapons")
-
-tab.newButton("Bat and Shield", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-4.389138698577881, -2.9999911785125732, 477.32147216796875) end)
-
-tab.newButton("Katana", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-33.361392974853516, -7.999994277954102, 428.2766418457031) end)
-
-tab.newButton("Chainsaw (Require Alpha Monke Spawned or All Systems Disables)", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-33.361392974853516, -7.999994277954102, 428.2766418457031) end)
-
-tab.newButton("Guitar", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(51.7342529296875, 4.000014305114746, 377.0679016113281) end)
-
-tab.newButton("Hammer", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(105.44219970703125, -13.000001907348633, 118.57872772216797) end)
-
-tab.newButton("FireAxe", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-99.31438446044922, 3.9999992847442627, 96.05844116210938) end)
-
-tab.newButton("Shovel", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Shovel.CFrame end)
-
-tab.newLabel("Crowbar Spawns")
-
-tab.newButton("Crowbar1", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-60.755, 5.443, 196.161)end)
-
-tab.newButton("Crowbar2", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(41.697, 5.43, 175.91) end)
-
-tab.newButton("Crowbar3", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(12.111, 5.455, 336.05) end)
-
-tab.newButton("Crowbar4", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(53.196, -11.55, 243.96) end)
-
-tab.newLabel("Pan Spawns")
-
-tab.newButton("Pan1", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(13.8, 4.19, 234.8) end)
-
-tab.newButton("Pan2", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(31.8, -8.81, 224.2) end)
-
-tab.newButton("Pan3", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-107.26, -7.81, 460.1) end)
-
-tab.newButton("Pan4", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(13.8, 4.19, 227.9) end)
-
-tab.newLabel("Other Weapons")
-
-tab.newButton("Flame-Thrower", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(15.547625541687012, -18.0000057220459, 164.994384765625) end)
-
-tab.newButton("Turret", "Teleport's you to this Weapon", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(110.377, -11.833, 107) end)
-
-tab.newLabel("Bandages")
-
-tab.newButton("Bandage1", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(98.10655975341797, 4.000014305114746, 348.2579345703125) end)
-
-tab.newButton("Bandage2", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(104.93524169921875, 3.9999992847442627, 146.78700256347656) end)
-
-tab.newButton("Bandage3", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-66.14749908447266, -7.999994277954102, 394.94720458984375) end)
-
-tab.newButton("Bandage4", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-78.83607482910156, 3.9999992847442627, 158.80746459960938) end)
-
-tab.newButton("Bandage5", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-92.96835327148438, 3.9999992847442627, 171.75343322753906) end)
-
-tab.newLabel("Antidotes")
-
-tab.newButton("Antidote1", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(115.89392852783203, -13.000018119812012, 177.11265563964844) end)
-
-tab.newButton("Antidote2", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(60.12789535522461, 4.000014305114746, 459.1845703125) end)
-
-tab.newButton("Antidote3", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(147.71205139160156, 4.000014305114746, 371.560791015625) end)
-
-tab.newLabel("Toolboxes")
-
-tab.newButton("Toolbox1", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(105.05856323242188, 4.000014305114746, 399.6448974609375) end)
-
-tab.newButton("Toolbox2", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(51.044837951660156, -13.00000286102295, 310.5234069824219) end)
-
-tab.newButton("Toolbox3", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(103.46805572509766, -13.000001907348633, 131.89112854003906) end)
-
-tab.newButton("Toolbox4", "Teleport's you to this Prop", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-48.401336669921875, -4.999992370605469, 427.9659729003906) end)
-
-local tab2 = DrRayLibrary.newTab("Monkeys", "ImageIdHere")
-
-tab2.newLabel("Monkeys Goo/Props")
-
-tab2.newButton("Red Monkey", "Teleport's you to the Apple", function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(52.858070373535156, 4.000014781951904, 457.41351318359375) end)
-
-tab2.newButton("Yellow Monkey", "Teleport's you to the Banana", function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(11.451489448547363, 4, 63.49627685546875) end)
-
-tab2.newButton("Green Monkey", "Teleport's you to the Green Goo", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(34.31182861328125, 3.9999992847442627, 63.702213287353516) end)
-
-tab2.newButton("Orange Monkey", "Teleport's you to the Orange Goo", function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(-19.815258026123047, -18.0000057220459, 144.23658752441406) end)
-
-tab2.newButton("Blue Monkey", "Teleport's you to the Blue Goo", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(6.840743064880371, -13.00000286102295, 320.1115417480469) end)
-
-tab2.newButton("Pink Monkey", "Teleport's you to the Computer (You need to click on the Computer)", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(93.61795806884766, 3.9999992847442627, 138.3841552734375) end)
-
-tab2.newButton("Purple Monkey", "Teleport's you to the Potion (You need to click on the Potion)", function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(119.95347595214844, -13.000018119812012, 161.5809326171875) end)
-
-tab2.newLabel("Alpha Monkey")
-
-tab2.newButton("Alpha Potion", "Teleport's you to the Alpha Potion (Needs Force Field Disabled)", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-95.8268814086914, 3.9999992847442627, 82.34674835205078) end)
-
-tab2.newButton("Alpha Liquid Dump", "Teleports you to where you pour the liquid (Needs Force Field Disabled)", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-95.8268814086914, 3.9999992847442627, 82.34674835205078) end)
-
-local tab3 = DrRayLibrary.newTab("Neutral", "ImageIdHere")
-
-tab3.newLabel("Systems")
-
-tab3.newButton("Force Field System", "Teleports you to Force Field System", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(25.886268615722656, 3.9999992847442627, 235.4950408935547) end)
-
-tab3.newButton("Secondary Spawn System", "Teleports you to Secondary Spawn System", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(111.49491882324219, 4.000014305114746, 415.38153076171875) end)
-
-tab3.newButton("Camera System", "Teleports you to Camera System", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-64.63858795166016, 14.000006675720215, 416.50811767578125) end)
-
-tab3.newButton("Water System", "Teleports you to Water System", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(42.52676010131836, -13.00000286102295, 90.70059967041016) end)
-
-tab3.newButton("Chemical System", "Teleports you to Chemical System", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(103.41464233398438, -9.00000286102295, 219.5945587158203) end)
-
-tab3.newButton("Light System", "Teleports you to Light System", function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(8.244865417480469, 3.999999761581421, 355.1341552734375) end)
-
-tab3.newLabel("OP Functions")
-
-tab3.newButton("Delete ForceField", "Delete the kill parts of Force Field", function() while true do game.Workspace.Regen:WaitForChild("oofidmonkey"):Destroy() end end)
-
-tab3.newButton("Delete Kill Parts", "Delete the kill parts of the hole and of ''Anticheat''", function() while true do game.Workspace.Regen:WaitForChild("oofidmonkey"):Destroy() end end)
-
-tab3.newLabel("NOTE: These functions are client sided (visible only for you)")
-tab3.newLabel("Once activated, they cannot be reversed")
-
-local tab4 = DrRayLibrary.newTab("FE", "ImageIdHere")
-
-tab4.newLabel("Most Useds")
-
-tab4.newButton("Infinite Yield", "Executes Infinite Yield Admin Commands Script", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end)
-
-tab4.newButton("Mobile Keyboard", "Executes FE Keyboard Gui", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() end)
-
-tab4.newLabel("Others")
-
-tab4.newButton("Teleport Tool", "Add the Teleport Tool to your BackPack", function() 
-    mouse = game.Players.LocalPlayer:GetMouse()
-    tool = Instance.new("Tool")
-    tool.RequiresHandle = false
-    tool.Name = "Teleport Tool"
-    tool.Activated:connect(function()
-    local pos = mouse.Hit+Vector3.new(0,2.5,0)
-    pos = CFrame.new(pos.X,pos.Y,pos.Z)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
-    end)
-    tool.Parent = game.Players.LocalPlayer.Backpack end)
-
-local tab5 = DrRayLibrary.newTab("Credits", "ImageIdHere")
-
-tab5.newLabel("Owner: Asd Scripts")
-tab5.newLabel("Scripter: Asd Scripts")
-tab5.newLabel("Post it: Asd Scripts")
+local player = game.Players.LocalPlayer
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Monke Hub V1", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({ Name = "Important", Icon = "rbxassetid://4483345998", PremiumOnly = false })
+local Section = Tab:AddSection({ Name = "For Mobile" })
+Tab:AddButton({ Name = "Create Toggle UI Button", Callback = function()
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+
+ScreenGui.Name = "ToggleUIGui"
+ScreenGui.Parent = player:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+Frame.BackgroundTransparency = 0.500
+Frame.Position = UDim2.new(0.1, 0, 0.035, 0)
+Frame.Size = UDim2.new(0.075, 0, 0.135, 0)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Size = UDim2.new(1, 0, 1, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "ToggleUI"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 50.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextStrokeTransparency = 0.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:Connect(function()
+	game:GetService("VirtualInputManager"):SendKeyEvent(true, "RightShift" , false , game)
+end)
+
+UITextSizeConstraint.Parent = TextButton
+UITextSizeConstraint.MaxTextSize = 30
+
+        end })
+
+Tab:AddButton({ Name = "Destroy Toggle UI Button", Callback = function() player:WaitForChild("PlayerGui").ToggleUIGui:Destroy() end })
+local Tab = Window:MakeTab({ Name = "Info", Icon = "rbxassetid://4483345998", PremiumOnly = false })
+Tab:AddLabel("Based on the game's wiki")
+local Section = Tab:AddSection({ Name = "Humans (Weapons) (Damage)" })
+Tab:AddLabel("Bat = 28")
+Tab:AddLabel("Baton and Shield = 24")
+Tab:AddLabel("Chainsaw = 20 (3 Hits)")
+Tab:AddLabel("Cricket Bat = 30")
+Tab:AddLabel("Crowbar = 25")
+Tab:AddLabel("Deploy Turret = 10 per shot")
+Tab:AddLabel("Fire Axe = 32")
+Tab:AddLabel("Guitar = 27")
+Tab:AddLabel("Katana = 33")
+Tab:AddLabel("Machete = 32")
+Tab:AddLabel("Monke Signboard = 28")
+Tab:AddLabel("Pistol = 9 per shot")
+Tab:AddLabel("Rock (Removed) = 15-20 per shot")
+Tab:AddLabel("Shotgun (Removed) = 5-10 per bullet")
+Tab:AddLabel("Sledgehammer = 31")
+Tab:AddLabel("Wrench = 30")
+local Section = Tab:AddSection({ Name = "Monkeys (Damage) (Health) (Sys Dmg) (Power/Dmg)" })
+Tab:AddLabel("(Brown) 21, 110, 0.2-0.8%, N/A")
+Tab:AddLabel("(Green) 25, 110, 0-0.6%, N/A")
+Tab:AddLabel("(Purple) 17, 95, 0-0.6%, Psn/10-17")
+Tab:AddLabel("(Red) 21, 100, 0.2-0.8%, LifeSteal")
+Tab:AddLabel("(Yellow) 19, 100, 0.2-0.8%, Regen")
+Tab:AddLabel("(Pink) 21, 95, 1.6-2.2%, Sys Dmg")
+Tab:AddLabel("(Blue) 17, 95, 1-2%, Shock/21")
+Tab:AddLabel("(Orange) 24, 80, 0.2-0.8%, Burn/5")
+Tab:AddLabel("(Alpha) 40, 500-1000, Depends, Alpha Buff")
+local Section = Tab:AddSection({ Name = "Items (Name) (Team) (Price) (What the item does)" })
+Tab:AddLabel("Apple, Monke, 15$, Turn you red monke/Regen")
+Tab:AddLabel("Banana, Monke, 15$, Turn you yellow monke/Regen")
+Tab:AddLabel("Poison Flask, Monke, N/A, Turn you purple monke")
+Tab:AddLabel("Alpha Sample, Monke, N/A, Turn you alpha monke")
+Tab:AddLabel("Body Armor, Human, 30$, Gives you +15 Max HP")
+Tab:AddLabel("Body Armor, Human, 30$, Gives you +15 Max HP")
+Tab:AddLabel("Bandage, Human, N/A, Heals you +20 HP")
+Tab:AddLabel("Coffee, Human, N/A, Heals you +15-20 HP")
+Tab:AddLabel("Antidote, Human, 30$, Heals you +20 HP (Poisoned Only")
+Tab:AddLabel("Green Truck, Both, N/A, Do nothing (Gives a badge)")
+local Section = Tab:AddSection({ Name = "Facts" })
+Tab:AddLabel("The katana has the highest raw damage")
+Tab:AddLabel("Baton and Shield reduces damage by 40%")
+Tab:AddLabel("Brown and Green monke has the highest Max HP")
+Tab:AddLabel("Green monke has the highest raw damage")
+Tab:AddLabel("Green monke has the highest raw damage")
+Tab:AddLabel("Pink monke has the highest damage on systems")
+Tab:AddLabel("Blue monke the highest damage if combined with its skill")
+Tab:AddLabel("Orange monke the least Max HP")
+Tab:AddLabel("Yellow monke has the highest life regen rate")
+Tab:AddLabel("Red monke has LifeSteal ability")
+Tab:AddLabel("Fruit regen is greater if you use Yellow/Red monke")
+Tab:AddLabel(".. ..-. / -.-- --- ..- / .--. .- -.-- / -- . / .- / -.-. . .-. - .- .. -. / .- -- --- ..- -. -")
+Tab:AddLabel(".. / .-- .. .-.. .-.. / --. .. ...- . / -.-- --- ..-")
+Tab:AddLabel("- .... . / ... --- ..- .-. -.-. . / -.-. --- -.. .")
+local Tab = Window:MakeTab({ Name = "Humans Things", Icon = "rbxassetid://4483345998", PremiumOnly = false })
+local Section = Tab:AddSection({ Name = "Spawns" })
+OrionLib:MakeNotification({ Name = "Welcome to Monke Hub", Content = "This is a script for the Game Called Monke Game (Now Version V1!)", Image = "rbxassetid://4483345998", Time = 8 })
+Tab:AddButton({ Name = "Primary Spawn", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(-24.506183624267578, 3.9999992847442627, 175.82774353027344) end })
+Tab:AddButton({ Name = "Secondary Spawn", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(165.59384155273438, 4.000014305114746, 374.7190246582031) end })
+local Section = Tab:AddSection({ Name = "Stores" })
+Tab:AddButton({ Name = "Weapons Store", Callback = function() game.Players.LocalPlayer.Character.Humanoid .RootPart.CFrame = CFrame.new(-40.48722457885742, 3.9999992847442627, 175.52499389648438) end })
+Tab:AddButton({ Name = "Props Store", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(171.0177764892578, 4.000014305114746, 377.5124206542969) end })
+local Section = Tab:AddSection({ Name = "Weapons" })
+Tab:AddButton({ Name = "Bat and Shield", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-4.389138698577881, -2.9999911785125732, 477.32147216796875) end })
+Tab:AddButton({ Name = "Katana", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-33.361392974853516, -7.999994277954102, 428.2766418457031) end })
+Tab:AddButton({ Name = "Chainsaw", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-72.34527587890625, -7.999994277954102, 518.0076904296875) end })
+Tab:AddButton({ Name = "Guitar", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(51.7342529296875, 4.000014305114746, 377.0679016113281) end })
+Tab:AddButton({ Name = "Hammer", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(105.44219970703125, -13.000001907348633, 118.57872772216797) end })
+Tab:AddButton({ Name = "Fire Axe", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-99.31438446044922, 3.9999992847442627, 96.05844116210938) end })
+
+Tab:AddButton({ Name = "Shovel", Callback = function() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Shovel.CFrame end })
+
+Tab:AddButton({ Name = "Cricket Bat", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(126.33721160888672, -13.000018119812012, 186.4666290283203) end })
+
+local Section = Tab:AddSection({ Name = "Crowbar Spawns" })
+
+Tab:AddButton({ Name = "Crowbar1", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-60.755, 5.443, 196.161) end })
+
+Tab:AddButton({ Name = "Crowbar2", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(41.697, 5.43, 175.91) end })
+
+Tab:AddButton({ Name = "Crowbar3", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(12.111, 5.455, 336.05) end })
+
+Tab:AddButton({ Name = "Crowbar4", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(53.196, -11.55, 243.96) end })
+
+local Section = Tab:AddSection({ Name = "Pan Spawns" })
+
+Tab:AddButton({ Name = "Pan1", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(13.8, 4.19, 234.8) end })
+
+Tab:AddButton({ Name = "Pan2", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(31.8, -8.81, 224.2) end })
+
+Tab:AddButton({ Name = "Pan3", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-107.26, -7.81, 460.1) end })
+
+Tab:AddButton({ Name = "Pan4", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(13.8, 4.19, 227.9) end })
+
+local Section = Tab:AddSection({ Name = "Other Weapons" })
+Tab:AddButton({ Name = "Flame-Thrower", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(15.547625541687012, -18.0000057220459, 164.994384765625) end })
+
+Tab:AddButton({ Name = "Turret", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(110.377, -11.833, 107) end })
+
+local Section = Tab:AddSection({ Name = "Bandages" })
+Tab:AddButton({ Name = "Bandage", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(98.10655975341797, 4.000014305114746, 348.2579345703125) end })
+Tab:AddButton({ Name = "Bandage2", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(104.93524169921875, 3.9999992847442627, 146.78700256347656) end })
+Tab:AddButton({ Name = "Bandage3", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-66.14749908447266, -7.999994277954102, 394.94720458984375) end })
+Tab:AddButton({ Name = "Bandage4", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-78.83607482910156, 3.9999992847442627, 158.80746459960938) end })
+Tab:AddButton({ Name = "Bandage5", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-92.96835327148438, 3.9999992847442627, 171.75343322753906) end })
+local Section = Tab:AddSection({ Name = "Antidotes" })
+Tab:AddButton({ Name = "Antidote", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(115.89392852783203, -13.000018119812012, 177.11265563964844) end })
+Tab:AddButton({ Name = "Antidote2", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(60.12789535522461, 4.000014305114746, 459.1845703125) end })
+Tab:AddButton({ Name = "Antidote3", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(147.71205139160156, 4.000014305114746, 371.560791015625) end })
+local Section = Tab:AddSection({ Name = "Toolboxes" })
+Tab:AddButton({ Name = "Toolbox", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(105.05856323242188, 4.000014305114746, 399.6448974609375) end })
+Tab:AddButton({ Name = "Toolbox2", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(51.044837951660156, -13.00000286102295, 310.5234069824219) end })
+Tab:AddButton({ Name = "Toolbox3", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(103.46805572509766, -13.000001907348633, 131.89112854003906) end })
+Tab:AddButton({ Name = "Toolbox4", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-48.401336669921875, -4.999992370605469, 427.9659729003906) end })
+local Section = Tab:AddSection({ Name = "More soon..." })
+local Tab = Window:MakeTab({ Name = " Monkey Things", Icon = "rbxassetid://4483345998", PremiumOnly = false })
+local Section = Tab:AddSection({ Name = "Monkeys" })
+Tab:AddButton({ Name = "Red Monkey/Apple", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(52.858070373535156, 4.000014781951904, 457.41351318359375) end })
+Tab:AddButton({ Name = "Yellow Monkey/Banana", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(11.451489448547363, 4, 63.49627685546875) end })
+Tab:AddButton({ Name = "Green Monkey", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(34.31182861328125, 3.9999992847442627, 63.702213287353516) end })
+Tab:AddButton({ Name = "Orange Monkey", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(-19.815258026123047, -18.0000057220459, 144.23658752441406) end })
+Tab:AddButton({ Name = "Blue Monkey", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(6.840743064880371, -13.00000286102295, 320.1115417480469) end })
+Tab:AddButton({ Name = "Pink Monkey (You need to click on the computer, wait for it to turn pink and click again)", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(93.61795806884766, 3.9999992847442627, 138.3841552734375) end })
+Tab:AddButton({ Name = "Purple Monkey", Callback = function() game.Players.LocalPlayer.Character.Humanoid. RootPart.CFrame = CFrame.new(119.95347595214844, -13.000018119812012, 161.5809326171875) end })
+local Section = Tab:AddSection({ Name = "Alpha Monkey" })
+Tab:AddButton({ Name = "Alpha Potion (Needs force field off)", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-95.8268814086914, 3.9999992847442627, 82.34674835205078) end })
+Tab:AddButton({ Name = "Alpha Liquid Dump", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(83.54210662841797, -5.000004768371582, 203.9273681640625) end })
+local Section = Tab:AddSection({ Name = "More soon..." })
+local Tab = Window:MakeTab({ Name = "Neutral Things", Icon = "rbxassetid://4483345998", PremiumOnly = false })
+local Section = Tab:AddSection({ Name = "Systems" })
+Tab:AddButton({ Name = "Force Field System", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(25.886268615722656, 3.9999992847442627, 235.4950408935547) end })
+Tab:AddButton({ Name = "Secondary Spawn System", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(111.49491882324219, 4.000014305114746, 415.38153076171875) end })
+Tab:AddButton({ Name = "Cameras System", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-64.63858795166016, 14.000006675720215, 416.50811767578125) end })
+Tab:AddButton({ Name = "Water System", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(42.52676010131836, -13.00000286102295, 90.70059967041016) end })
+Tab:AddButton({ Name = "Chemical System", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(103.41464233398438, -9.00000286102295, 219.5945587158203) end })
+Tab:AddButton({ Name = "Light System", Callback = function() game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(8.244865417480469, 3.999999761581421, 355.1341552734375) end })
+local Section = Tab:AddSection({ Name = "OVERPOWERED FUNCTIONS" })
+Tab:AddButton({ Name = "DELETE FORCEFIELD", Callback = function() 
+while true do game.Workspace.Regen:WaitForChild("oofidmonkey"):Destroy()
+end
+    end })
+Tab:AddButton({ Name = "Delete Kill parts", Callback = function() game.Workspace.Killll:Destroy() end })
+local Section = Tab:AddSection({ Name = "More soon..." })
+Tab:AddLabel("NOTE: These functions are client sided (visible only for you)")
+Tab:AddLabel("Once activated, they cannot be reversed")
+local Tab = Window:MakeTab({ Name = "FE Things", Icon = "rbxassetid://4483345998", PremiumOnly = false })
+local Section = Tab:AddSection({ Name = "Most Useds" })
+Tab:AddButton({ Name = "Infinite Yield", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))() end })
+Tab:AddButton({ Name = "Mobile Keyboard", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() end })
+local Section = Tab:AddSection({ Name = "Others" })
+Tab:AddButton({ Name = "Teleport Tool", Callback = function()     mouse = game.Players.LocalPlayer:GetMouse()
+      tool = Instance.new("Tool")
+      tool.RequiresHandle = false
+      tool.Name = "Teleport Tool"
+      tool.Activated:connect(function()
+      local pos = mouse.Hit+Vector3.new(0,2.5,0)
+      pos = CFrame.new(pos.X,pos.Y,pos.Z)
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+      end)
+      tool.Parent = game.Players.LocalPlayer.Backpack end })
+local Tab = Window:MakeTab({ Name = "Credits", Icon = "rbxassetid://4483345998", PremiumOnly = false })
+Tab:AddLabel("Owner: Asd Scripts")
+Tab:AddLabel("Scripter: Asd Scripts")
+Tab:AddLabel("Post it: Asd Scripts")
+
+OrionLib:Init()
